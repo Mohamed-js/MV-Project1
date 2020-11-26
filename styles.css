@@ -155,7 +155,7 @@ body{
 .suggested{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    width: 60%;
+    width: 65%;
     font-size: 16px;
     column-gap: 20px;
 }
@@ -178,7 +178,7 @@ body{
 .news-card{
     box-sizing: border-box;
     border: 2px solid grey;
-    padding: 15px;
+    padding: 8px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
