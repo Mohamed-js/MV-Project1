@@ -107,7 +107,15 @@ body{
     position: absolute;
     top: 180%;
     right:7%;
+    align-items: start;
+    max-width: 120px;
 }
+
+.sidebar h6{
+    padding: 5px;
+    margin: 0;
+}
+
 .card img{
     max-width: 80px;
 }
@@ -147,7 +155,7 @@ body{
 .suggested{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    width: 80%;
+    width: 60%;
     font-size: 16px;
     column-gap: 20px;
 }
@@ -182,11 +190,12 @@ body{
 
 .news-cards{
     box-sizing: border-box;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     padding: 15px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    
 }
 
 .news-cards a{
@@ -207,10 +216,40 @@ body{
 }
 
 footer{
-    width: 80%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
+    line-height: 6px;
 }
 footer p{
     font-size: 14px;
+}
+
+.right{
+    border-left: 1px solid grey;
+    padding-left: 20px;
+}
+
+.footer{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 6px;
+    font-size: 10px;
+    padding-top: 10px;
+    border-top: 1px solid grey;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.cardy{
+    display: flex;
+}
+
+.cardy img{
+    max-width: 80px;
 }
