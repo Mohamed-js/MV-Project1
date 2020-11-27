@@ -18,21 +18,6 @@ Additional description about the project and its features.
 [Live Demo Link](https://mohamed-js.github.io/MV-Project1/)
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
 
 ## Authors
 
