@@ -194,7 +194,6 @@ aside{
 
 .news-cards{
     box-sizing: border-box;
-    /* border: 2px solid grey; */
     padding: 15px;
     display: flex;
     flex-flow: column;
