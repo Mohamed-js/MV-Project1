@@ -13,6 +13,7 @@ body{
     background-color: white;
     border-bottom: solid 2px #252525;
     box-shadow: 0px 7px 20px rgb(216, 216, 216);
+    z-index: 1000;
 }
 .first a{
     text-decoration: none;
@@ -86,6 +87,7 @@ body{
     max-width: 100%;
     width: 100%;
 }
+
 .inline-img img{
     max-height: 400px;
     max-width: 40%;
@@ -103,17 +105,23 @@ body{
     box-sizing: border-box;
 }
 
-.sidebar{
+.h{
+    position: relative;
+    width: 100%;
+}
+
+.sidebar{  
     position: absolute;
-    top: 180%;
-    right:7%;
-    align-items: start;
-    max-width: 120px;
+    float: right;
 }
 
 .sidebar h6{
     padding: 5px;
     margin: 0;
+}
+
+aside{
+    right: 0;
 }
 
 .card img{
@@ -168,7 +176,7 @@ body{
     row-gap: 20px;
 }
 .news-card img{
-    max-width: 100px;
+    max-width: 80px;
 }
 
 .side a {
@@ -177,11 +185,12 @@ body{
 
 .news-card{
     box-sizing: border-box;
-    border: 2px solid grey;
-    padding: 8px;
+    border: 1px solid grey;
+    padding: 7px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    max-height: 250px;
 }
 
 .news-card a{
